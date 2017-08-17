@@ -32,7 +32,7 @@ alias wttr="curl wttr.in" #weather in my place
 alias fs="stat -f \"%z bytes\""
 
 # Kill dem processes
-alias killnow="kill -9"
+alias killnow="kill -9" 
 
 # Faster npm for europeans
 command -v npm > /dev/null && alias npme="npm --registry http://registry.npmjs.eu"
