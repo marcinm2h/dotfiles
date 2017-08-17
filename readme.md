@@ -4,10 +4,7 @@ This repo contains my dotfiles and it's based on [Addy Osmani](https://github.co
 
 ## overview of files
 
-####  Automatic config
-* `.vimrc`, `.vim` - vim config, obv.
-
-#### shell environement
+#### Shell environement
 * `.bash_aliases`
 * `.bash_exports`
 * `.bash_functions`
@@ -19,8 +16,7 @@ This repo contains my dotfiles and it's based on [Addy Osmani](https://github.co
 * `.vimrc`, `.vim` - vim config
 
 
-#### git
-* `.git`
+#### Git
 * `.gitconfig`
 * `.gitignore`
 
