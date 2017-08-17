@@ -34,8 +34,5 @@ alias fs="stat -f \"%z bytes\""
 # Kill dem processes
 alias killnow="kill -9"
 
-# Talk english to me bash!
-alias eng="export LC_ALL=C"
-
 # Faster npm for europeans
 command -v npm > /dev/null && alias npme="npm --registry http://registry.npmjs.eu"
