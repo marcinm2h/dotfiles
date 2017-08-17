@@ -15,8 +15,18 @@ This repo contains my dotfiles and it's based on [Addy Osmani](https://github.co
 * `.bash_prompt`
 * `.bashrc`
 
+####  Automatic config
+* `.vimrc`, `.vim` - vim config
+
+
 #### git
 * `.git`
-* `.gitattributes`
 * `.gitconfig`
 * `.gitignore`
+
+
+## Installation && update
+
+```bash
+git clone https://github.com/marcinm2h/dotfiles.git && cd dotfiles && ./sync.sh
+```
