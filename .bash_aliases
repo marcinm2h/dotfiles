@@ -20,6 +20,7 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ...="cd ../../.."
 alias ....="cd ../../../.."
+alias dev="cd ~/dev"
 
 # Shortcuts
 alias g="git"
