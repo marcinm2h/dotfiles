@@ -28,6 +28,7 @@ alias c="clear" #ctrl+l is probably easier
 
 # addons
 alias wttr="curl wttr.in" #weather in my place
+alias matrix="cmatrix -C white" #matrix effect
 
 # File size
 alias fs="stat -f \"%z bytes\""

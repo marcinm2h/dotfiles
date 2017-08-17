@@ -36,3 +36,6 @@ sudo apt-get update && sudo apt-get install yarn
 
 # commonly used npm deps
 sudo npm install -g create-react-app grunt webpack 
+
+# matrix effect :)
+sudo apt-get install cmatrix
