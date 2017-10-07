@@ -30,9 +30,6 @@ alias c="clear" #ctrl+l is probably easier
 alias wttr="curl wttr.in" #weather in my place
 alias matrix="cmatrix -C white" #matrix effect
 
-# File size
-alias fs="stat -f \"%z bytes\""
-
 # Kill dem processes
 alias killnow="kill -9" 
 
