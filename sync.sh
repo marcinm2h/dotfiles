@@ -2,6 +2,7 @@
 git pull
 function copy_files() {
 	rsync \
+		--exclude "install-deps.sh"\
 		--exclude ".git/" \
 		--exclude "instal-deps.sh" \
 		--exclude "sync.sh" \
@@ -23,4 +24,3 @@ else
 fi
 
 unset copy_files
-source ~/.bash_profile
