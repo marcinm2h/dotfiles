@@ -1,15 +1,10 @@
-sudo apt-get install curl
+sudo apt-get install git curl
 
 # nvm && set latest node as default
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
+wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
 nvm install node
-nvm alias default node
-bash
 
-# Tilix
-sudo add-apt-repository ppa:webupd8team/terminix
-sudo apt-get update -qq &&
-sudo apt-get install tilix
+# TODO: Tilix
 
 # Fira Code font
 mkdir -p ~/.local/share/fonts
@@ -19,10 +14,7 @@ bash -c 'for type in Bold Light Medium Regular Retina; do
 done'
 fc-cache -f
 
-# Yarn
-sudo apt-get install yarn
-
-# Npm deps
+# Node stuff
 npm install -g create-react-app opn-cli
 
 # matrix effect :)
