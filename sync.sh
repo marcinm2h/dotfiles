@@ -1,5 +1,4 @@
 #!/bin/bash
-git pull
 function copy_files() {
 	rsync \
 		--exclude "install-deps.sh"\
@@ -12,6 +11,7 @@ function copy_files() {
 		-av . ~
 }
 
+git pull
 # --force to install witouth prompt
 if [ "$1" == "--force" -o "$1" == "-f" ]; then
 	copy_files

@@ -1,10 +1,8 @@
-sudo apt-get install git curl
+sudo apt-get install cmatrix curl git htop mc ncdu -y
 
 # nvm && set latest node as default
 wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
 nvm install node
-
-# TODO: Tilix
 
 # Fira Code font
 mkdir -p ~/.local/share/fonts
@@ -16,6 +14,3 @@ fc-cache -f
 
 # Node stuff
 npm install -g create-react-app opn-cli
-
-# matrix effect :)
-sudo apt-get install cmatrix
