@@ -1,4 +1,4 @@
-sudo apt-get install cmatrix curl git htop mc ncdu -y
+sudo apt-get install cmatrix curl git htop mc ncdu xsel -y
 
 # nvm && set latest node as default
 wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash

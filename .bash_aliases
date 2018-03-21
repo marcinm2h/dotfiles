@@ -26,6 +26,7 @@ alias dev="cd ~/dev"
 # Shortcuts
 alias g="git"
 alias c="clear" # even ctrl+l is probably easier
+alias copy="xsel -b" #clipboard
 
 # addons
 alias wttr="curl wttr.in" #weather in my place
