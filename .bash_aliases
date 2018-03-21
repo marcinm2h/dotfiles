@@ -16,7 +16,6 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 
 # Navigation
 alias cd-="cd-"
-alias -="cd -"
 alias cd..="cd .." # As I frequentyl misspell it
 alias ..="cd .."
 alias ...="cd ../.."
