@@ -27,3 +27,7 @@ This repo contains my dotfiles and it's based on [Addy Osmani](https://github.co
 ```
 git clone https://github.com/marcinm2h/dotfiles.git && cd dotfiles && bash ./sync.sh
 ```
+
+## Reading list
+- https://remysharp.com/2018/08/23/cli-improved?utm_source=hackernewsletter&utm_medium=email&utm_term=fav
+
