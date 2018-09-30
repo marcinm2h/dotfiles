@@ -5,7 +5,7 @@ function copy_files() {
 		--exclude ".git/" \
 		--exclude "instal-deps.sh" \
 		--exclude "sync.sh" \
-		--exclude "TODO" \
+		--exclude "todo.md" \
 		--exclude "LICENSE" \
 		--exclude "readme.md" \
 		-av . ~
