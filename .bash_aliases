@@ -27,10 +27,9 @@ alias dev="cd ~/dev"
 alias g="git"
 alias c="clear" # even ctrl+l is probably easier
 alias copy="xsel -b" #clipboard
+alias opn="xdg-open"
 
 # addons
 alias wttr="curl wttr.in" #weather in my place
 alias matrix="cmatrix -C white" #matrix effect 
 
-# Faster npm for europeans
-command -v npm > /dev/null && alias npme="npm --registry http://registry.npmjs.eu"
