@@ -16,7 +16,7 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 
 # Navigation
 alias cd-="cd-"
-alias cd..="cd .." # As I frequentyl misspell it
+alias cd..="cd .."
 alias ..="cd .."
 alias ...="cd ../.."
 alias ...="cd ../../.."
@@ -24,12 +24,8 @@ alias ....="cd ../../../.."
 alias dev="cd ~/dev"
 
 # Shortcuts
-alias g="git"
-alias c="clear" # even ctrl+l is probably easier
-alias copy="xsel -b" #clipboard
+alias c="clear"
 alias opn="xdg-open"
 
 # addons
 alias wttr="curl wttr.in" #weather in my place
-alias matrix="cmatrix -C white" #matrix effect 
-

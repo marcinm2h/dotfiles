@@ -1,8 +1,11 @@
-sudo apt-get install cmatrix curl git htop mc ncdu xsel -y
+sudo apt install \
+    curl git htop mc ncdu xsel -y
 
 # nvm && set latest node as default
-wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+source ~/.bashrc
 nvm install node
+nvm alias node default
 
 # Fira Code font
 mkdir -p ~/.local/share/fonts
@@ -11,6 +14,3 @@ bash -c 'for type in Bold Light Medium Regular Retina; do
     "https://github.com/tonsky/FiraCode/blob/master/distr/ttf/FiraCode-${type}.ttf?raw=true";
 done'
 fc-cache -f
-
-# Node stuff
-npm install -g create-react-app opn-cli
